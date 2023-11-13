@@ -4,6 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
 }
 
 .calculator {
@@ -11,6 +13,8 @@ body {
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #display {
@@ -18,6 +22,8 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .buttons {
@@ -29,4 +35,19 @@ body {
 button {
     padding: 10px;
     font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+.instructions {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
 }
