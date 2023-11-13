@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #eaf3eb; /* Light green background */
     font-family: 'Arial', sans-serif;
 }
 
@@ -17,12 +17,62 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #333;
+    color: #5a8d63; /* Dark green text */
 }
 
 .calculator {
     text-align: center;
-    border: 1px solid #ccc;
+    border: 1px solid #5a8d63; /* Dark green border */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f5fff4; /* Lighter green background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #5a8d63; /* Dark green border */
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.operators,
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #5a8d63; /* Dark green border */
+    border-radius: 8px;
+    background-color: #bde9bf; /* Light green button background */
+    color: #5a8d63; /* Dark green button text */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a3d1a3; /* Slightly darker green on hover */
+}
+
+.instructions {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
     padding: 20px;
     border-radius: 8px;
     background-color: #fff;
